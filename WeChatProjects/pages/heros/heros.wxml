@@ -1,0 +1,20 @@
+<view class="page">
+  <!-- 头像 / 名字 / > -->
+  <view class="heros">
+    <view class="heros__items"
+    wx:for="{{heros}}"
+    wx:key="id"
+    wx:for-item="hero"
+    data-id="{{hero.id}}"
+     bindtap="gotoDetail">
+      <view class="heros__hd">
+        <image src="{{hero.avatar}}"></image>
+      </view>
+      <view class="heros__bd">
+        <view class="heros__name"><text>{{hero.name}}</text></view>
+        <view class="heros__desc"><text>有她的时候总是一拖五</text></view>
+      </view>
+      <view class="heros__ft"></view>
+    </view>
+  </view>
+</view>
