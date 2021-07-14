@@ -1,0 +1,86 @@
+
+page {
+  background-color: #111;
+}
+.page {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  overflow-y: scroll;
+  /* -webit 前缀 兼容 chrome webkit 老的手机怕不支持
+      滚起来如丝般顺滑 
+  */
+  -webkit-overflow-scrolling: touch;
+  z-index: 1;
+}
+.page__hd {
+  padding: 40px;
+}
+.page__title {
+  font-size: 20px;
+  text-align: left;
+  font-weight: 400;
+  color: #fff;
+}
+.page__decs {
+  margin-top: 4px;
+  color: rgba(255, 255, 255, 0.5)
+}
+.page_bd {
+  padding: 0;
+}
+
+
+
+
+
+/* 
+ * @desc 按钮组件库
+ * @auth cmm
+ * @date 2021/7/6
+*/
+.weui-btn {
+  position: relative; /*?*/
+  display: block;
+  width: 184px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 8px 24px;
+  font-weight: 700;
+  font-size: 17px;
+  text-align: center;
+  color: #fff;
+  line-height: 1.4117;
+  border-radius: 4px;
+  overflow: hidden;
+  -webkit-tap-highlight-color: rgba(0,0,0,0.5);
+  background-color: #07c160;
+}
+.weui-btn:active{
+  background-color: #06ae56;
+}
+.weui-btn_primary{
+  background: #07c160;
+}
+.weui-btn_default{
+  background: rgba(255,255, 255, 0.08);
+  color: rgba(255,255, 255, 0.8);
+}
+.weui-btn_disabled{
+  background-color: rgba(255,255, 255, 0.08);
+  color: rgba(255,255, 255, 0.2);
+
+}
+.weui-btn_loading.weui-btn_primary{
+  background-color: rgba(6,174,86,0.6);
+  color: rgba(255, 255, 255, 0.8);
+}
+.weui-btn + .weui-btn {
+  margin-top: 16px;
+}
+
+
+
+

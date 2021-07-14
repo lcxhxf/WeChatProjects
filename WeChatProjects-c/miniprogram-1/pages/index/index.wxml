@@ -1,0 +1,9 @@
+<view class="page">
+  <view class="page__hd">
+  <view class="page__title">Botton</view>
+  <view class="page__decs">按钮</view>
+  </view>
+  <view class="page__bd">
+  <text class="weui-btn weui-btn_primary">主要按钮</text>
+  </view>
+</view>
