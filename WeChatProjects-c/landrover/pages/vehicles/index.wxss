@@ -1,0 +1,32 @@
+/* miniprogram/pages/vehicles/index.wxss */
+.spec {
+  display: flex;
+  border-bottom: 1px solid #ededed;
+}
+.spec .item {
+  border-right: 1px solid #ededed;
+  width: 100%;
+  padding: 64rpx;
+}
+.spec .item .value text {
+  font-size: 60rpx;
+  margin-right: 8rpx;
+}
+.cover {
+  position: relative;
+}
+.cover image, .cover video {
+  height: 38.2vh;
+}
+.cover .content {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  padding: 8px 16px;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  box-sizing: border-box;
+  color:rgba(255, 255, 255, 0.85);
+  background-color: rgba(0,0,0,0.2);
+}
