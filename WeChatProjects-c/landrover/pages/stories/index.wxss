@@ -1,0 +1,18 @@
+/* miniprogram/pages/stories/index.wxss */
+.cards {
+  padding: 16px;
+}
+.card {
+  background: #fff;
+  margin-bottom: 16px;
+  transition: 0.5s all;
+}
+.card.hover {
+  box-shadow: 0 32px 48px rgba(0,0,0, 0.06);
+}
+.card image {
+  position: relative;
+}
+.card .label {
+  
+}
