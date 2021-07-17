@@ -1,0 +1,47 @@
+{
+  "pages": [
+    "pages/home/home",
+    "pages/mail/mail",
+    "pages/find/find",
+    "pages/my/my"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#ededed",
+    "navigationBarTitleText": "微信",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "selectedColor": "#000000",
+    "borderStyle": "white",
+    "backgroundColor": "#f2f0f0",
+    "list": [
+      {
+        "text": "微信",
+        "pagePath": "pages/home/home",
+        "iconPath": "assets/images/resouces/home.png",
+        "selectedIconPath": "assets/images/resouces/home-active.png"
+      },
+      {
+        "text": "通讯录",
+        "pagePath": "pages/mail/mail",
+        "iconPath": "assets/images/resouces/mail.png",
+        "selectedIconPath": "assets/images/resouces/mail-active.png"
+      },
+      {
+        "text": "发现",
+        "pagePath": "pages/find/find",
+        "iconPath": "assets/images/resouces/find.png",
+        "selectedIconPath": "assets/images/resouces/find-active.png"
+      },
+      {
+        "text": "我",
+        "pagePath": "pages/my/my",
+        "iconPath": "assets/images/resouces/my-active.png",
+        "selectedIconPath": "assets/images/resouces/my.png"
+      }
+    ]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}
