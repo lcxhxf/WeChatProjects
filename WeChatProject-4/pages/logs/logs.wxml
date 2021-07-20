@@ -1,7 +1,0 @@
-<view class="userCenter">
-  <view class="userinfo">
-    <image class="user-head" src="{{userinfo.avatarUrl}}"></image>
-    <view class="user-name" src="{{userinfo.nickName}}"></view>
-    <view class="user-phone" src="{{phone}}"></view>
-  </view>
-</view>
