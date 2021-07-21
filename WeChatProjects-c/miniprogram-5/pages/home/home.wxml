@@ -1,0 +1,21 @@
+<view class="group" wx:for-item="item" wx:key="index" bindtap="gotoDetail">
+  <view class="group-one">
+    <image src="https://graph.baidu.com/thumb/v4/2967175091,1316665254.jpg"></image>
+  </view>
+  <view class="group-two">
+  <text>零基础学会小程序开发</text>
+  </view>
+  <view class="group-three">
+    <text>通过两天的集中学习，你会循序渐进的开发出一些具有实际应用场景的小程序</text>
+  </view>
+  <view class="group-four">
+  <view class="group-four-1">  <text>深圳南山</text></view>
+  <view class="group-four-2">  <text>2018年9月22日-23日</text></view>
+  </view>
+  <view wx:for="{{articles}}" wx:for-item="five" wx:key="index" class="five">
+  <view class="five-content">
+      <image class="five-content-img" src="{{five.pic}}"></image>
+      <view class="five-content-desc">{{five.title}}</view>     
+    </view>
+  </view>
+</view>
