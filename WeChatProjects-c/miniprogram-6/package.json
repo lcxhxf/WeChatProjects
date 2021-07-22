@@ -1,0 +1,16 @@
+{
+  "name": "miniprogram-6",
+  "version": "1.0.0",
+  "description": "1. pages/index/index\r     pages/load/load",
+  "main": "app.js",
+  "dependencies": {
+    "@vant/weapp": "^1.7.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
