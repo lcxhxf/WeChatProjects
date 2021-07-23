@@ -1,0 +1,11 @@
+<swiper class="swiper-box" bindchange="swipechange" indicator-dots="{{true}}" indicator-active-color="#fff">
+    <!-- wx:key 为了性能优化 放一个唯一的值 -->
+    <swiper-item wx:for="{{banners}}" wx:key="id">
+        <image mode="aspectFill" bindtap="imgClick" src="{{item.picUrl}}" />
+    </swiper-item>
+</swiper>
+<view class="btn">
+  <button wx:if="{{swiperCurrent + 1 == swiperMaxNumber}}" type="primary" size="mini" class="weui-btn mini-btn" bindtap="gotoIndex">
+  进入首页
+  </button>
+</view>
