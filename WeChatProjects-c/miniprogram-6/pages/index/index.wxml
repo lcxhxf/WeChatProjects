@@ -1,0 +1,63 @@
+<!-- banners -->
+<view class="swiper-container">
+  <swiper class="swiper-outer" indicator-dots="true" indicator-active-color="#ffffff" autoplay circular>
+    <swiper-item wx:for="{{topBanners}}" wx:key="id">
+      <image mode="aspectFill" bindtap="gotoDetail" 
+      data-id="{{item.id}}" src="{{item.picUrl}}"/>
+    </swiper-item>
+  </swiper>
+  <view class="goodsDynamic">
+    <swiper class="swiper-inner" autoplay circular vertical>
+      <navigator wx:for="{{goodsDynamic}}" wx:key="index" url="">
+        <swiper-item>
+          <view class="goodsDynamic-item">
+            <image mode="sapectFill" src="{{item.avatarUrl}}"/>
+            <text>{{item.nick}}购买了{{item.goodsName}}</text>
+          </view>
+        </swiper-item>
+      </navigator>
+    </swiper>
+  </view>
+</view>
+<!-- 分类 -->
+<view class="category-container">
+  <view class="category-box">
+    <view class="category-list" 
+    wx:for="{{categories}}" wx:key="id">
+      <view class="category-column" 
+        data-id="{{item.id}}"
+        bindtap="gotoCategory"
+        >
+        <image mode="aspectFill"
+         class="category-imgbox"
+         src="{{item.icon}}"/>
+         <view class="category-title">{{item.name}}</view>
+      </view>
+    </view>
+  </view>
+</view>
+<!-- 优惠 -->
+<view class="notice-box">
+  <swiper class="notice_swiper" vertical autoplay circular interval="3000">
+    <swiper-item wx:for="{{noticeList.dataList}}" wx:key="id">
+      <van-notice-bar 
+        wx:if="{{noticeList}}"
+        mode="link"
+        scrollable
+        text="{{item.title}}"
+        background="#FFFFFF"
+        data-id="{{item.id}}"
+        speed="30"
+      >
+        <image slot="left-icon" class="notice-icon" 
+        src="../../images/home/notice.png"></image>
+      </van-notice-bar> 
+    </swiper-item>
+  </swiper>
+</view>
+<!-- ad -->
+<view class="container">
+  <van-divider custom-class="table-text" contentPosition="center">
+    <image class="table-icon-goodslist" src="../../images/home/goodslist.png"></image>商品列表
+  </van-divider>
+</view>
