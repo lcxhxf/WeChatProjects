@@ -1,0 +1,18 @@
+<view class="one">
+    <swiper class="swiper-box" bindchange="swipechange" indicator-dots="{{true}}" indicator-active-color="#fff">
+    <!-- wx:key 为了性能优化 放一个唯一的值 -->
+    <swiper-item wx:for="{{banners}}" wx:key="id">
+        <image mode="scaleToFill" bindtap="imgClick" src="{{item.picUrl}}" />
+    </swiper-item>
+    </swiper>
+    <view class="two">
+        <view class="two1">
+        <text>新书上架 ></text>
+        <image class="image1" mode="aspectFill" src="http://img3m9.ddimg.cn/32/20/29252849-1_l_6.jpg"/>
+        </view>
+        <view class="two2">
+        <text>精选榜单 ></text>
+        <image class="image2"  mode="aspectFill" src="http://img3m8.ddimg.cn/94/20/29260138-1_l_3.jpg"/>
+        </view>
+    </view>
+</view>

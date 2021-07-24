@@ -1,0 +1,23 @@
+swiper, swiper-item, wiper-item.image {
+  width: 50vw;
+  height: 450rpx;
+  top: 5%;
+  left: 5%;
+  right: 5%;
+  float: left;
+}
+.two {
+  width: 40vw;
+  height: 450rpx;
+  margin-top: 5%;
+  margin-left: 5%;
+  margin-right: 5%;
+  float: left;
+}
+.two1, .two2 {
+  background:-webkit-gradient(linear, 10% 100%, 20% 20%,from(#fff), to(#faf3dc));/*谷歌*/
+}
+.image1, .image2 {
+  width: 100%;
+  height: 164rpx;
+}
