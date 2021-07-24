@@ -1,0 +1,14 @@
+{
+  "pages":[
+    "pages/index/index"
+
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#E6CAFF",
+    "navigationBarTitleText": "当当购物",
+    "navigationBarTextStyle":"black"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}
