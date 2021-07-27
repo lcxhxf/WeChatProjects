@@ -1,0 +1,18 @@
+<view class="app-poster-container">
+  <view class="body">
+    <view class="text-area-wrapper">
+      <textarea value="{{text}}" bindinput="bindTextInput"></textarea>
+      <view class="text-area-footer">
+        <text>{{remainLen}}/140</text>
+      </view>
+    </view>
+    <view class="image-area" bindtap="onImageTap">
+      <view class="image-outer">
+        <image src="{{picUrl}}" />
+      </view>
+    </view>
+    <view class="footer">
+      <button class="footer-btn" bindtap="onSendTap">发送</button>
+    </view>
+  </view>
+</view>

@@ -1,0 +1,14 @@
+.bili_search {
+  height: 30rpx;
+}
+.bili_swiper_list{
+  flex: 1;
+}
+.bili_swiper_list__swiper, .bili_swiper_list__item {
+  height: 100%;
+  background-color: pink;
+}
+scroll-view {
+  height: 100%;
+  background-color: green;
+}

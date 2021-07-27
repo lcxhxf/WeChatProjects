@@ -1,0 +1,8 @@
+.item {
+    height: 10vh;
+    background-color: green;
+    color: white;
+}
+.item:nth-child(odd) {
+    background-color: pink;
+}

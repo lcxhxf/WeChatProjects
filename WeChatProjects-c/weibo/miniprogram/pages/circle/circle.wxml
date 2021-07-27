@@ -1,0 +1,19 @@
+<view class="circle-container">
+    <view class="main-header"
+     style="display:{{currentPage === 'main'?'flex':'none'}};max-height:{{mainHeaderMaxHeight}}">
+    <view class="group-picker-wrapper">
+        <picker range="{{groupArray}}" value="{{groupArrayIndex}}" bindchange="bindGroupPickerChange">
+            <button class="group-picker-inner">
+                {{groupArray[groupArrayIndex]}}
+            </button>
+        </picker>
+    </view>
+    <view class="search-btn" >
+    <button class="" bindtap="onSearchTap">搜索用户</button>
+    </view>
+    </view>
+    
+    <view class="main-area" style="display{{currentPage === 'main'?'block':'none'}}">
+    <button class="add-poster-btn" bindtap="onAddPosterTap" hover-class="add-poster-bun-hover">+</button>
+    </view>
+</view>

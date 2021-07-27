@@ -1,0 +1,1 @@
+<van-button type="primary" bindtap="and">price and 20-50</van-button>

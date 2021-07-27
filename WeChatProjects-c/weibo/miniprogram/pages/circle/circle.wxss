@@ -1,0 +1,12 @@
+.add-poster-btn {
+  position: fixed;
+  bottom: 30rpx;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 20rpx 50rpx;
+  background-color: green;
+  color: #fff;
+}
+.add-poster-bun-hover {
+  background-color: yellow;
+}

@@ -1,0 +1,23 @@
+
+<loading hidden="{{hiddenLoading}}">数据加载中...</loading>
+<view class="wrapper">
+  <view wx:for="{{articlesList}}" wx:for-item="group"
+  wx:key="index" class="group">
+    <view class="group-bar">
+      <view class="group-title {{group.date=='今日'?'on':''}}" >{{group.date}}</view>
+    </view>
+    <view class="group-content">
+      <view wx:for="{{group.articles}}"
+      wx:for-item="item"
+      class="group-content-item"
+      bindtap="gotoDetail"
+      >
+      <view class="group-content-item-desc">
+      {{item-title}}
+      </view>
+      <image class="group-content-item-img" 
+      src="{{item.pic}}"></image>
+      </view>
+    </view>
+  </view>
+</view>

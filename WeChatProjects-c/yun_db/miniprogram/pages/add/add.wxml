@@ -1,0 +1,2 @@
+<van-button square type="primary" block bind:click="addData">猪🐖</van-button>
+

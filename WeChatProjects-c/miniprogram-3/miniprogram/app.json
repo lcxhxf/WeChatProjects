@@ -1,0 +1,41 @@
+{
+  "pages": [
+    "pages/home/home",
+    "pagesstst",
+    "pages/partner/partner",
+    "pages/more/more",
+    "pages/detail/detail"
+  ],
+  "tabBar": {
+    "color": "#7a7e83",
+    "selectedColor": "#13227a",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/home/home",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pagesstst",
+        "text": "活动"
+      },
+      {
+        "pagePath": "pages/partner/partner",
+        "text": "伙伴"
+      },
+      {
+        "pagePath": "pages/more/more",
+        "text": "更多"
+      }
+    ]
+  },
+  "window": {
+    "backgroundColor": "#F6F6F6",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#000",
+    "navigationBarTitleText": "iKcamp英语学习",
+    "navigationBarTextStyle": "white"
+  },
+  "sitemapLocation": "sitemap.json",
+  "style": "v2"
+}

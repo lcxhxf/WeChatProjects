@@ -1,0 +1,13 @@
+<view>
+    <view style="height:10vh; background-color: red" ></view> 
+<scroll-view scroll-y style="height:100vh;"
+    bindscrolltolower="loadMore"
+    bindscrolltoupper="refresh"
+    scroll-top="{{scrollTop}}"
+    lower-threshold="50"
+>
+  <view wx:for="{{items}}" wx:key="index" class="item">
+  {{item}}
+  </view>
+</scroll-view>
+</view>

@@ -1,0 +1,35 @@
+<view bindtap="gotoSearch">
+  <van-search  shape="round" placeholder="请输入搜索关键字"/>
+</view>
+
+ <!-- <view class="page page_v"> -->
+  <!-- tab 复用的 -->
+  <!-- <view class="bili_search"></view>
+  <view class="bili_tabs">
+    <view 
+    data-index="0"
+    bindtap="switchTap"
+    class="bili_tabs__item {{activeTabIndex == 0?\"bili_tabs__item_on\":\"\"}}">
+    热门
+    </view>
+    <view
+    data-index="1"
+    bindtap="switchTap"
+     class="bili_tabs__item {{activeTabIndex == 1?\"bili_tabs__item_on\":\"\"}}">
+    追番
+    </view>
+  </view>
+  <view class="bili_swiper_list">
+  <swiper class="bili_swiper_list__swiper"
+  bindchange="doListChange"
+  current="{{activeSwiperIndex}}"
+  >
+    <swiper-item class="bili_swiper_list__item">
+    <scroll-view scroll-y bindscrolltolower="loadMore"></scroll-view>
+    </swiper-item>
+    <swiper-item class="bili_swiper_list__item">
+      <scroll-view scroll-y bindscrolltolower="loadMore"></scroll-view>
+    </swiper-item>
+  </swiper>
+  </view>
+</view> --> 

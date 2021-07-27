@@ -1,0 +1,28 @@
+/* 具体项目无关 */
+.page {
+  height: 100vh;
+  overflow: hidden;
+}
+.page_v {
+  display: flex;
+  flex-direction: column;
+}
+
+.bili_tabs {
+  display: flex;
+  height: 80rpx;
+  /* background-color: green; */
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.bili_tabs__item {
+  color: #333;
+  font-size: 36rpx;
+  /* background-color: red; */
+  padding: 10rpx 0rpx;
+}
+.bili_tabs__item_on {
+  border-bottom: 4rpx solid pink;
+  color: pink;
+}
