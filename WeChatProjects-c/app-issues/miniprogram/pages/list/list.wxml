@@ -1,0 +1,10 @@
+<view class="page page_fv">
+  <view class="hd">
+    <scroll-view scroll-x="true" style="width:100%;" class="scroll-view_H">
+      <view wx:for="{{heroNav}}" wx:key="{{index}}" data-index="{{index}}" data-type="{{item.data-type}}" bindtap="changeHeros" class="scroll-view-item_H {{activeNavIndex == index?'active':''}}">
+      <text>{{item.text}}</text>
+      </view>
+    </scroll-view>
+  </view>
+  <view class="bd"></view>
+</view>
