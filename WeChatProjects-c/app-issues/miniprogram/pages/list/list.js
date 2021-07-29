@@ -21,15 +21,23 @@ Page({
     // heroList
     // 如何从一个数组中（每一项都是对象）, 有一个key camptype
     // type  == camptype 找出所有来 
-    let heros = [];
+    if (type == 'all') {
+      this.setData({
+        heroList:this.data.allHero
+      })
+    }else{
+      let heros = [];
     this.data.allHero.forEach(hero => {
       if (hero.camptype == type) {
         heros.push(hero)
       }
     })
+    this.data.allHero.filter((hero) => hero.camptype == type)
     this.setData({
       heroList: heros
     })
+    }
+    
   },
 
   /**
@@ -81,7 +89,7 @@ Page({
    * 页面相关事件处理函数--监听用户下拉动作
    */
   onPullDownRefresh: function () {
-
+    
   },
 
   /**

@@ -1,0 +1,88 @@
+<!--miniprogram/pages/my/my.wxml-->
+<view class="page">
+  <view class="page_hd">
+      <view class="page_hd-user">
+          <view class="user_img" >
+              <image class="img" src="https://img0.baidu.com/it/u=2268198137,1256581699&fm=26&fmt=auto&gp=0.jpg" />
+          </view>
+          <view class="user_name">
+              <view class="name">小灰灰</view>
+              <view class="desc">
+                <view class="desc_one">京享值 ></view>
+                <view class="desc_two">家庭号 ></view>
+            </view>  
+          </view>
+          <view class="set"> 
+            <image class="set_png" src="../../images/my/set.png" />
+          </view>
+      </view>
+      <view class="collection-box">
+        <view class="collection-list" wx:for="{{collection}}">
+            <view class="collection-column">
+                <view class="collection-num">{{item.num}}</view>
+                <view class="collecttion-title">{{item.title}}</view>
+            </view>
+      </view>
+      </view>
+      <view class="page_hd-ticket">
+          <view class="ticket-plus">
+            <image class="plus" src="../../images/my/plus.png"/> 
+            <view class="line">|</view>
+            <view class="freeuse">免费试用</view>
+            <view class="coupons">立领1张运费券</view>
+            <button class="trial"></button>
+          </view> 
+      </view>
+  </view>
+  <view class="page_bd">
+    <view class="order-box">
+      <view class="order-list" wx:for="{{order}}" wx:key="id">
+        <view class="order-column" data-id="{{item.id}}">
+          <image mode="aspectFill" class="order-imgbox" src="{{item.icon}}"/>
+          <view class="order-title">{{item.name}}</view>
+        </view>
+      </view>
+      <view class="viewticket">查看发票</view>
+    </view>
+    <view class="property-box">
+      <view class="property-list" wx:for="{{property}}" wx:key="id">
+        <view class="property-column" data-id="{{item.id}}">
+          <view class="property-nums">{{item.nums}}</view>
+          <view class="property-title">{{item.name}}</view>
+        </view>
+      </view>
+      <view class="myproperty">
+        <view class="property-column">
+          <image mode="aspectFill" class="property-imgbox" src="../../images/my/property.png"/>
+          <view class="property-mytitle">我的资产</view>
+        </view>  
+      </view>
+    </view>
+    <view class="game-box">
+      <view class="box-t">
+        <view class="box-title">游戏与互动</view>
+      </view>
+      <view class="game">
+        <view class="game-list" wx:for="{{game}}" wx:key="id">
+          <view class="game-column" data-id="{{item.id}}">
+            <image mode="aspectFill" class="game-imgbox" wx:if="{{item.pic}}" src="{{item.pic}}"/>
+            <view class="game-title">{{item.name}}</view>
+          </view>
+        </view>
+      </view>
+    </view>
+    <view class="tool-box">
+      <view class="box-t">
+        <view class="box-title">工具与服务</view>
+      </view>
+      <view class="tool">
+        <view class="tool-list" wx:for="{{tool}}" wx:key="id">
+          <view class="tool-column" data-id="{{item.id}}">
+            <image mode="aspectFill" class="tool-imgbox" src="{{item.pic}}"/>
+            <view class="tool-title">{{item.name}}</view>
+          </view>
+        </view>
+      </view>
+    </view>  
+  </view>
+</view>

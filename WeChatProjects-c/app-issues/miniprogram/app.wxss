@@ -26,3 +26,7 @@
   border-bottom: 4rpx solid pink;
   color: pink;
 }
+.heroItem image{
+  max-width: 100%;
+}
+
