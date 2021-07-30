@@ -1,0 +1,17 @@
+<view class="page">
+  <view class="userinfo">
+    <label>
+    <view wx:if="!isLogged">
+      <button openType="getUserInfo"
+        class="user-btn"
+        size="mini"
+        type="primary"
+        bindgetuserinfo="getUserInfo">点击授权登录</button>
+    </view>
+    <view wx:if="{{isLogged}}">
+    
+      <l-avatar></l-avatar>
+    </view>
+    </label>
+  </view>
+</view>
