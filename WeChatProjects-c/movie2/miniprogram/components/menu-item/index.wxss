@@ -1,0 +1,17 @@
+.nav {
+  width: 12.9629vw;
+  height: 7.52122vh;
+}
+.nav-1 {
+  width: 11.574vw;
+  height: 5.05458vh;
+  margin-left: 0.648148vw;
+  text-align: center;
+}
+.nav-2 {
+  font-size: 10px;
+  color: #666666;
+  text-align: center;
+  margin-top: 0.17266vh;
+  
+}

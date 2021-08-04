@@ -1,0 +1,7 @@
+<view class="page">
+  <postion-toast wx:if="isPositionPermitted" />
+  <banner-swiper pics="{{pics}}"/>
+  <block wx:for="{{menu}}">
+    <menu-item menu="{{item}}"></menu-item>
+  </block>
+</view>

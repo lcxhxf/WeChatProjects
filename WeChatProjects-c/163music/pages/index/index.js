@@ -1,15 +1,12 @@
-// index.js
-// 获取应用实例
-const app = getApp()
 
+const app = getApp()
+const {getRecommendList, getSearchResult} = require('../../api/api.js')
 Page({
   data: {
-    motto: 'Hello World',
-    userInfo: {},
-    hasUserInfo: false,
-    canIUse: wx.canIUse('button.open-type.getUserInfo'),
-    canIUseGetUserProfile: false,
-    canIUseOpenData: wx.canIUse('open-data.type.userAvatarUrl') && wx.canIUse('open-data.type.userNickName') // 如需尝试获取用户信息可改为false
+    // data module.exports 假数据
+    // wx.cloud.database
+    // 已经有接口数据 url
+    recommendList: []
   },
   // 事件处理函数
   bindViewTap() {
@@ -18,11 +15,17 @@ Page({
     })
   },
   onLoad() {
-    if (wx.getUserProfile) {
-      this.setData({
-        canIUseGetUserProfile: true
+    getRecommendList()
+      .then(res => {
+        this.setData({
+          recommendList: res.data.result
+        })
+      }),
+      getSearchResult('周杰伦')
+      .then(res => {
+        console.log(res);
       })
-    }
+    
   },
   getUserProfile(e) {
     // 推荐使用wx.getUserProfile获取用户信息，开发者每次通过该接口获取用户个人信息均需用户确认，开发者妥善保管用户快速填写的头像昵称，避免重复弹窗

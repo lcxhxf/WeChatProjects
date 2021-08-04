@@ -1,0 +1,7 @@
+<view class="nav">
+  <view class="nav-1">
+    <image src="{{menu.icon}}" class="slide-image" mode="scaleToFill" style="width: 11.574vw; height: 5.05458vh;"/> 
+  </view>
+  <view class="nav-2">{{menu.title}}</view>
+</view>
+
