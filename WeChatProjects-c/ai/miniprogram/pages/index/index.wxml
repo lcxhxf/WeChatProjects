@@ -1,0 +1,6 @@
+<view class="cu-bar bg-darkGray search">
+  <view class="search-form round" bindtap="goSearch">
+    <text class="cuIcon-search text-green"></text>
+    <input type="text" placeholder="输入垃圾名称" />
+  </view>
+</view>

@@ -25,21 +25,21 @@ Page({
       icon:'data:image/png;base64,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'
     }
   ],
-    isPositionPermitted:true,
-    pics:['',''],
-    showUploadTip: false,
-    powerList: [{
-      title: '云函数',
-      tip: '安全、免鉴权运行业务代码',
-      showItem: false,
-      item: [{
+  isPositionPermitted: true,
+  pics: ['a', 'b'],
+  showUploadTip: false,
+  powerList: [{
+    title: '云函数',
+    tip: '安全、免鉴权运行业务代码',
+    showItem: false,
+    item: [{
         title: '获取OpenId',
         page: 'getOpenId'
       },
       //  {
       //   title: '微信支付'
       // },
-       {
+      {
         title: '生成小程序码',
         page: 'getMiniProgramCode'
       },
@@ -47,119 +47,129 @@ Page({
       //   title: '发送订阅消息',
       // }
     ]
+  }, {
+    title: '数据库',
+    tip: '安全稳定的文档型数据库',
+    showItem: false,
+    item: [{
+      title: '创建集合',
+      page: 'createCollection'
     }, {
-      title: '数据库',
-      tip: '安全稳定的文档型数据库',
-      showItem: false,
-      item: [{
-        title: '创建集合',
-        page: 'createCollection'
-      }, {
-        title: '更新记录',
-        page: 'updateRecord'
-      }, {
-        title: '查询记录',
-        page: 'selectRecord'
-      }, {
-        title: '聚合操作',
-        page: 'sumRecord'
-      }]
+      title: '更新记录',
+      page: 'updateRecord'
     }, {
-      title: '云存储',
-      tip: '自带CDN加速文件存储',
-      showItem: false,
-      item: [{
-        title: '上传文件',
-        page: 'uploadFile'
-      }]
+      title: '查询记录',
+      page: 'selectRecord'
     }, {
-      title: '云托管',
-      tip: '不限语言的全托管容器服务',
-      showItem: false,
-      item: [{
-        title: '部署服务',
-        page: 'deployService'
-      }]
-    }],
-    envList,
-    selectedEnv: envList[0],
-    haveCreateCollection: false
-  },
-
-  onClickPowerInfo(e) {
-    const index = e.currentTarget.dataset.index
-    const powerList = this.data.powerList
-    powerList[index].showItem = !powerList[index].showItem
-    if (powerList[index].title === '数据库' && !this.data.haveCreateCollection) {
-      this.onClickDatabase(powerList)
-    } else {
-      this.setData({
-        powerList
-      })
-    }
-  },
-
-  onChangeShowEnvChoose() {
-    wx.showActionSheet({
-      itemList: this.data.envList.map(i => i.alias),
-      success: (res) => {
-        this.onChangeSelectedEnv(res.tapIndex)
-      },
-      fail (res) {
-        console.log(res.errMsg)
-      }
-    })
-  },
-
-  onChangeSelectedEnv(index) {
-    if (this.data.selectedEnv.envId === this.data.envList[index].envId) {
-      return
-    }
-    const powerList = this.data.powerList
-    powerList.forEach(i => {
-      i.showItem = false
-    })
+      title: '聚合操作',
+      page: 'sumRecord'
+    }]
+  }, {
+    title: '云存储',
+    tip: '自带CDN加速文件存储',
+    showItem: false,
+    item: [{
+      title: '上传文件',
+      page: 'uploadFile'
+    }]
+  }, {
+    title: '云托管',
+    tip: '不限语言的全托管容器服务',
+    showItem: false,
+    item: [{
+      title: '部署服务',
+      page: 'deployService'
+    }]
+  }],
+  envList,
+  selectedEnv: envList[0],
+  haveCreateCollection: false
+},
+_error1(e) {
+  console.log('父组件得到消息，子组件error点击了', e);
+  console.log(e.detail.msg);
+},
+onShow() {
+  this.popup = this.selectComponent('#popup')
+  console.log(this.popup);
+},
+showPopup() {
+  this.popup.showPopup();
+},
+onClickPowerInfo(e) {
+  const index = e.currentTarget.dataset.index
+  const powerList = this.data.powerList
+  powerList[index].showItem = !powerList[index].showItem
+  if (powerList[index].title === '数据库' && !this.data.haveCreateCollection) {
+    this.onClickDatabase(powerList)
+  } else {
     this.setData({
-      selectedEnv: this.data.envList[index],
-      powerList,
-      haveCreateCollection: false
-    })
-  },
-
-  jumpPage(e) {
-    wx.navigateTo({
-      url: `/pages/${e.currentTarget.dataset.page}/index?envId=${this.data.selectedEnv.envId}`,
-    })
-  },
-
-  onClickDatabase(powerList) {
-    wx.showLoading({
-      title: '',
-    })
-    wx.cloud.callFunction({
-      name: 'quickstartFunctions',
-      config: {
-        env: this.data.selectedEnv.envId
-      },
-      data: {
-        type: 'createCollection'
-      }
-    }).then((resp) => {
-      if (resp.result.success) {
-        this.setData({
-          haveCreateCollection: true
-        })
-      }
-      this.setData({
-        powerList
-      })
-      wx.hideLoading()
-    }).catch((e) => {
-      console.log(e)
-      this.setData({
-        showUploadTip: true
-      })
-      wx.hideLoading()
+      powerList
     })
   }
+},
+
+onChangeShowEnvChoose() {
+  wx.showActionSheet({
+    itemList: this.data.envList.map(i => i.alias),
+    success: (res) => {
+      this.onChangeSelectedEnv(res.tapIndex)
+    },
+    fail(res) {
+      console.log(res.errMsg)
+    }
+  })
+},
+
+onChangeSelectedEnv(index) {
+  if (this.data.selectedEnv.envId === this.data.envList[index].envId) {
+    return
+  }
+  const powerList = this.data.powerList
+  powerList.forEach(i => {
+    i.showItem = false
+  })
+  this.setData({
+    selectedEnv: this.data.envList[index],
+    powerList,
+    haveCreateCollection: false
+  })
+},
+
+jumpPage(e) {
+  wx.navigateTo({
+    url: `/pages/${e.currentTarget.dataset.page}/index?envId=${this.data.selectedEnv.envId}`,
+  })
+},
+
+onClickDatabase(powerList) {
+  wx.showLoading({
+    title: '',
+  })
+  wx.cloud.callFunction({
+    name: 'quickstartFunctions',
+    config: {
+      env: this.data.selectedEnv.envId
+    },
+    data: {
+      type: 'createCollection'
+    }
+  }).then((resp) => {
+    if (resp.result.success) {
+      this.setData({
+        haveCreateCollection: true
+      })
+    }
+    this.setData({
+      powerList
+    })
+    wx.hideLoading()
+  }).catch((e) => {
+    console.log(e)
+    this.setData({
+      showUploadTip: true
+    })
+    wx.hideLoading()
+  })
+}
 })

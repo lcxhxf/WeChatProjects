@@ -1,0 +1,6 @@
+
+<block wx:for="{{posts}}" wx:key="_id">
+  <navigator url="/pages/detail/detail?_id={{item._id}}">
+    <text>{{item.title}}</text>
+  </navigator>
+</block>

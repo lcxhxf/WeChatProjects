@@ -1,0 +1,16 @@
+.bg-darkGray {
+  background-color: #f6f6f6;
+  color: #ffffff;
+}
+.cu-bar .search-form {
+  background: #ffffff;
+}
+.cu-bar .search-form input {
+  height: 100rpx;
+}
+.cu-bar .search-form {
+  height: 90rpx;
+}
+.cu-bar {
+  margin-top: 300rpx;
+}

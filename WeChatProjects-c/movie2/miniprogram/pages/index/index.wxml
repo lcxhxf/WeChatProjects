@@ -1,7 +1,20 @@
-<view class="page">
+<!-- <view class="page">
   <postion-toast wx:if="isPositionPermitted" />
   <banner-swiper pics="{{pics}}"/>
   <block wx:for="{{menu}}">
     <menu-item menu="{{item}}"></menu-item>
   </block>
+</view> -->
+<view class="container">
+  <view class="userinfo">
+    <button bindtap="showPopup">点我</button>
+  </view>
+  <popup id="popup"
+    title="小组件"
+    content="学会了吗？"
+    btn_no='没有'
+    btn_ok='学会了'
+    bind:error="_error1"
+  >
+  </popup>
 </view>

@@ -3,6 +3,7 @@
     "cloud-tip-modal": "/components/cloudTipModal/index",
     "postion-toast" : "/components/postion-toast/index",
     "banner-swiper": "/components/banner-swiper/index",
-    "menu-item": "/components/menu-item/index"
+    "menu-item": "/components/menu-item/index",
+    "popup": "/components/popup/index"
   }
 }

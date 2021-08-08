@@ -1,0 +1,11 @@
+<view class="page">
+  <scroll-view scroll-y class="more_scroll" bindscroll="addMore">
+    <block wx:for="{{cities}}" wx:key="_id" wx:for-item="city">
+      <view class="city">
+        <view class="hd">{{city.city}}</view>
+        <view class="bd">{{city.gdp}}</view>
+        <view class="ft">{{city.city_area}}</view>
+      </view>
+    </block>
+  </scroll-view>
+</view>
