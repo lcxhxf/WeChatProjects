@@ -1,0 +1,10 @@
+<view wx:for="{{books}}" wx:key="{{index}}">
+  <van-card title="{{item.title}}"
+    desc="{{item.author}}"
+    thumb="{{item.avatar}}"
+    price="{{item.isbn}}"
+    data-id="{{item.id}}"
+    bindtap="viewItem"
+  >
+  </van-card>
+</view>

@@ -4,6 +4,7 @@ const { envList } = require('../../envList.js')
 
 Page({
   data: {
+    SHOW_TOP:true,
     showUploadTip: false,
     powerList: [{
       title: '云函数',
@@ -61,6 +62,12 @@ Page({
     envList,
     selectedEnv: envList[0],
     haveCreateCollection: false
+  },
+  onShareAppMessage(){
+    return
+    title:'智能分类垃圾'
+    imageUel:'https://6c61-laji-bopv4-1259505195.tcb.qcloud.la/laji.png?sign=7c8d38e435eb3104fcf5933ebff667f5&t=1561904613'
+    path:'pages/index/index'
   },
   goSearch() {
     wx.navigateTo({
