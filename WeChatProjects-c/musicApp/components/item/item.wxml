@@ -1,0 +1,8 @@
+<view class="songsheet_item_box">
+    <image 
+    lazy-load="{{true}}"
+    src="{{song.album.picUrl}}"
+    class="songsheet_container_image"></image>
+    <text class="songsheet_container_text newsong_songname">{{song.name}}</text>
+    <text class="newsong_artists">{{song.artists[0].name}}</text>
+</view>
